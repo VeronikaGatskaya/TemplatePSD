@@ -1,0 +1,269 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+p, b {
+    margin: 0;
+    padding: 0;
+    color: #404040;
+}
+
+header {
+    height: 100px;
+    position: relative;
+}
+
+header > .logo {
+    width: 160px;
+    margin-left: 150px;
+    margin-top: 40px;
+    display: inline-block;
+}
+
+header > .logo b {
+    font-family: Bebas Neue;
+    font-size: 36px;
+    text-transform: uppercase;
+    
+}
+
+header > .logo p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+header > .menu {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    margin-right: 151px;
+}
+
+header > .menu > ul {
+    margin: 0;
+}
+
+header > .menu > ul > li {
+    display: inline-block;
+    font-family: Bebas Neue;
+    margin-right: 10px;
+}
+
+header > .menu > ul > li > a {
+    display: block;
+    padding: 52px 13px 13px 13px;
+    text-decoration: none;    
+    color: #404040;
+}
+
+header > .menu > ul > li a:hover {
+    background: #d45e5e;
+    color:#fff;
+}
+
+/* 162 1280 */
+
+.wrapper {
+    width: 78%;
+    margin: auto;
+}
+
+.firstBlock {
+    text-align: center;
+}
+
+    .firstBlock > .dot > p { 
+        font-size: 190px;
+        height: 120px;
+        font-family: Arial;
+        color: #dfdfdf;
+    }
+
+    .firstBlock > .firstText {
+        width: 500px;
+        margin: auto; 
+        padding-bottom: 30px;
+    }
+
+        .firstBlock > .firstText p {
+            font-family: Cambria;
+            font-style: italic;
+            font-size: 22px;
+        }
+
+        .firstBlock hr {
+            margin: 0;
+            color: #dfdfdf;
+
+            box-shadow: 0 6px 4px -4px #dfdfdf;
+        }
+
+    .firstBlock > .imgZero {
+        /*height: 100px;
+        width: 100px;*/
+        margin: auto;
+        width: 100px; 
+        height:100px; 
+        background-size: 100px;
+        background-image: url("../Images/scale.png");
+
+        background-repeat: no-repeat;
+    }
+    /* */
+
+.secondBlock {
+        display: block;
+        width: 960px;
+        max-width: 960px;
+        margin: auto;
+}
+
+        .secondBlock > .secondText p {
+            font-family: Cambria;
+            font-size: 22px;
+            font-style: italic;
+        }
+
+    .secondBlock > .firstLine {
+        display: inline-block;
+    }
+
+        .secondBlock > .firstLine > .imgFirst {
+           display: inline-block;
+           padding-right: 33px;
+
+            width: 208px; 
+            height:205px; 
+            background-image: url("../Images/c1.png");
+            background-repeat: no-repeat;
+        }
+
+        .secondBlock > .firstLine > .imgSecond {
+            display: inline-block;
+            padding-right: 33px;
+
+            width: 208px; 
+            height:205px; 
+            background-image: url("../Images/c2.png");
+            background-repeat: no-repeat;
+        }
+
+        .secondBlock > .firstLine > .imgThird {
+            display: inline-block;
+            padding-right: 33px;
+
+            width: 208px; 
+            height:205px; 
+            background-image: url("../Images/c3.png");
+            background-repeat: no-repeat;
+        }
+
+        .secondBlock > .firstLine > .imgFourth {
+            display: inline-block;
+
+            width: 208px; 
+            height:205px; 
+            background-image: url("../Images/c4.png");
+            background-repeat: no-repeat;
+        }
+
+    .secondBlock > .secondLine {
+        display: inline-block;
+    }
+
+    .secondBlock > .secondLine > .imgFifth {
+        display: inline-block;
+        padding-right: 33px;
+        width: 208px; 
+        height:205px; 
+        background-image: url("../Images/c5.png");
+        background-repeat: no-repeat;
+    }
+
+    .secondBlock > .secondLine > .imgSixth {
+        display: inline-block;
+        padding-right: 33px;
+        width: 208px; 
+        height:205px; 
+        background-image: url("../Images/c6.png");
+        background-repeat: no-repeat;
+    }
+
+    .secondBlock > .secondLine > .imgSeventh {
+        display: inline-block;
+        padding-right: 33px;
+        width: 208px; 
+        height:205px; 
+        background-image: url("../Images/c7.png");
+        background-repeat: no-repeat;
+    }
+
+    .secondBlock > .secondLine > .imgEighth {
+        display: inline-block;
+        width: 208px; 
+        height:205px; 
+        background-image: url("../Images/c8.png");
+        background-repeat: no-repeat;
+    }
+
+    .secondBlock > .thirdLine {
+        display: inline-block;
+    }
+
+    .secondBlock > .thirdLine > .imgNineth {
+        display: inline-block;
+        padding-right: 33px;
+        width: 208px; 
+        height:205px; 
+        background-image: url("../Images/c9.png");
+        background-repeat: no-repeat;
+    }
+
+    .secondBlock > .thirdLine > .imgTenth {
+        display: inline-block;
+        padding-right: 33px;
+        width: 208px; 
+        height:205px; 
+        background-image: url("../Images/c10.png");
+        background-repeat: no-repeat;
+    }
+
+    .secondBlock > .thirdLine > .imgEleventh {
+        display: inline-block;
+        padding-right: 33px;
+        width: 208px; 
+        height:205px; 
+        background-image: url("../Images/c11.png");
+        background-repeat: no-repeat;
+    }
+
+    .secondBlock > .thirdLine > .imgTwelveth {
+        display: inline-block;
+        width: 208px; 
+        height:205px; 
+        background-image: url("../Images/c12.png");
+        background-repeat: no-repeat;
+    }
+
+footer {
+    background-color: #d45e5e;
+    margin-top: 121px;
+    height: 45px;
+    position: relative;
+    text-align: left;
+}
+
+footer p {
+    margin-left: 84%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #fff;
+    font-style: italic;
+}
+
+
+
+
+
+
